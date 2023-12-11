@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DisplacementMap?>
+<?import javafx.scene.effect.FloatMap?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="588.0" prefWidth="758.0" style="-fx-background-color: #FCFAE1;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hotel__project.SController">
+   <children>
+      <Label layoutX="14.0" layoutY="-2.0" prefHeight="82.0" prefWidth="478.0" text="Welcome to QALQILIA ZOO">
+         <font>
+            <Font name="Calisto MT Bold" size="30.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color opacity="0.46000000834465027" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Label>
+      <Button fx:id="b1" layoutX="30.0" layoutY="408.0" mnemonicParsing="false" onAction="#B1" prefHeight="82.0" prefWidth="192.0" style="-fx-text-fill: #F6E497;" styleClass="shiny2" stylesheets="@CSS.css" text="Sign Up">
+         <effect>
+            <Reflection />
+         </effect>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.4826498332459843">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill></Button>
+      <ImageView fitHeight="25.0" fitWidth="34.0" layoutX="723.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/close.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="closeButton" layoutX="708.0" layoutY="2.0" mnemonicParsing="false" onAction="#closeButtonAction" prefHeight="37.0" prefWidth="49.0" styleClass="parent" stylesheets="@CSS.css" />
+      <AnchorPane layoutX="330.0" layoutY="80.0" prefHeight="439.0" prefWidth="368.0" style="-fx-background-color: #F6E497;" styleClass="t" stylesheets="@CSS.css">
+         <children>
+            <Label layoutX="117.0" layoutY="25.0" text="Sign in" textAlignment="CENTER">
+               <font>
+                  <Font name="Bell MT Bold" size="42.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Label layoutX="24.0" layoutY="127.0" text="User SSN :">
+               <font>
+                  <Font name="Simplified Arabic" size="18.0" />
+               </font>
+               <textFill>
+                  <RadialGradient centerX="0.36346864876272056" centerY="0.5" radius="0.5">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color opacity="0.46000000834465027" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </RadialGradient>
+               </textFill>
+            </Label>
+            <Label layoutX="22.0" layoutY="227.0" text="Password :">
+               <font>
+                  <Font name="Simplified Arabic" size="18.0" />
+               </font>
+               <textFill>
+                  <RadialGradient centerX="0.6365313934664005" centerY="0.5" radius="0.5">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color opacity="0.46000000834465027" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </RadialGradient>
+               </textFill>
+            </Label>
+            <Button layoutX="181.0" layoutY="374.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="155.0" style="-fx-background-color: #F6E497;" text="Forgot Password?">
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0" startX="0.8958990295602696">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.021460000425577164" green="0.01080000028014183" blue="0.05999999865889549" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill></Button>
+            <Button layoutX="112.0" layoutY="314.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="155.0" style="-fx-background-color: #FCFAE1; -fx-text-fill: #727973;" stylesheets="@CSS.css" text="Login">
+               <styleClass>
+                  <String fx:value="shiny" />
+                  <String fx:value="docButton" />
+               </styleClass>
+               <textFill>
+                  <RadialGradient centerX="0.6254612827652934" centerY="0.5" radius="0.5">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </RadialGradient>
+               </textFill>
+            </Button>
+            <TextField layoutX="124.0" layoutY="122.0" opacity="0.94" prefHeight="10.0" prefWidth="202.0" promptText="Enter SSN" style="-fx-background-color: #; -fx-border-color: #8AAB8F;" styleClass="aya" stylesheets="@CSS.css" />
+            <Line endX="100.0" layoutX="225.0" layoutY="159.0" startX="-100.0" stroke="#d3e8d6" />
+            <TextField layoutX="124.0" layoutY="221.0" prefHeight="10.0" prefWidth="202.0" promptText="Enter Password" style="-fx-background-color: #; -fx-border-color: #8AAB8F;" styleClass="aya" stylesheets="@CSS.css" />
+            <Line endX="100.0" layoutX="226.0" layoutY="259.0" startX="-100.0" stroke="#d3e8d6" />
+            <ImageView fitHeight="30.0" fitWidth="49.0" layoutX="297.0" layoutY="226.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/7205445111595501398-128.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="49.0" layoutX="297.0" layoutY="126.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image2/7242953181586787868-128%20(1).png" />
+               </image>
+            </ImageView>
+         </children>
+         <effect>
+            <DisplacementMap>
+               <mapData>
+                  <FloatMap />
+               </mapData>
+            </DisplacementMap>
+         </effect>
+      </AnchorPane>
+      <ImageView fitHeight="316.0" fitWidth="200.0" layoutX="26.0" layoutY="77.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/534385.gif" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

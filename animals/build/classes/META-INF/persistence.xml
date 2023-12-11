@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="animalsPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>animals.Languages</class>
+    <class>animals.Ticket</class>
+    <class>animals.Visitor</class>
+    <class>animals.Workingdays</class>
+    <class>animals.Department</class>
+    <class>animals.Opendays</class>
+    <class>animals.Animal</class>
+    <class>animals.Employee</class>
+    <class>animals.VisitorRecords</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@localhost:1521:orcl"/>
+      <property name="javax.persistence.jdbc.user" value="c##housnia"/>
+      <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
+      <property name="javax.persistence.jdbc.password" value="housniaH123"/>
+    </properties>
+  </persistence-unit>
+</persistence>
