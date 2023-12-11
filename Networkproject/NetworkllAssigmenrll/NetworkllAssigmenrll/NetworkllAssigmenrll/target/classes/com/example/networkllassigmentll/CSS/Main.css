@@ -1,0 +1,110 @@
+/* Button*/
+/*product button*/
+#showproduct,#edititems,#withdraw,#insertproduct
+{
+   -fx-font-weight:600;
+   -fx-border-color: transparent;
+   -fx-border-width: 0;
+   -fx-background-radius: 20;
+   -fx-background-color:  #073e6a ;
+   -fx-font-size: 1.5em;
+   -fx-font-family:"Segoe UI", Helvetica, Arial, sans-serif;
+   -fx-text-fill: white;
+}
+#showproduct:hover,#edititems:hover,#withdraw:hover,#insertproduct:hover
+{
+      -fx-cursor: hand;
+      -fx-font-size: 1.5em;
+}
+#showproduct:pressed,#withdraw:pressed,#edititems:pressed,#insertproduct:pressed
+{
+     -fx-background-color:  #0e5e9e;
+}
+/*product button*/
+/* menu button*/
+#showall,#product,#insertitem,#logout,#higest,#avarage,#npals
+{
+     -fx-font-weight: bold;
+    -fx-background-color:  #2196f3 ;
+    -fx-text-fill:white;
+}
+
+#showall:hover,#product:hover,#insertitem:hover,#logout:hover,#higest:pressed,#avarage:pressed,#npals:pressed
+
+{
+   -fx-cursor:hand;
+}
+#showall:pressed,#product:pressed,#insertitem:pressed,#logout:pressed,#higest:pressed,#avarage:pressed,#npals:pressed
+{
+   -fx-background-color:#1571bb;
+
+
+}
+/*Menu Button*/
+#convert,#convert2
+{
+-fx-background-color:transparent;
+-fx-text-fill: green;
+
+}
+#convert:hover,#convert2:hover
+{
+-fx-background-color:transparent;
+-fx-text-fill: green;
+  -fx-underline: true;
+  -fx-cursor:hand;
+
+
+}
+#convert:pressed,#convert2:pressed
+{
+-fx-background-color:transparent;
+-fx-text-fill: green;
+  -fx-underline: false;
+  -fx-cursor:hand;
+  -fx-font-size:1.1em;
+
+}
+/* Button*/
+
+/* anchor*/
+#mainanchor
+{
+-fx-background-image: url("../../../../resss.jpg");
+  -fx-background-repeat: no-repeat;
+  -fx-background-size:cover;
+}
+/* anchor*/
+/*HyperLink*/
+#lastseen
+{
+  -fx-text-fill: #3fe38c;
+}
+/*HyperLink*/
+/*
+
+
+/*text area*/
+#a1,#a2,#a3
+{
+-fx-opacity:0.8
+}
+/*text area*/
+
+/*Label*/
+
+#L1,#L2
+{
+-fx-background-color:transparent;
+-fx-text-fill: white;
+  -fx-font-size:2em;
+}
+
+/*Label*/
+/*Imageveiw*/
+ #employee
+ {
+ -fx-opacity:0.9;
+ -fx-border-radius:50%;
+ }
+ /*Imageveiw*/

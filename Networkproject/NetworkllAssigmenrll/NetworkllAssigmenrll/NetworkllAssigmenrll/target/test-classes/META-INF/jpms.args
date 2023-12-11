@@ -1,0 +1,4 @@
+--patch-module
+com.example.networkllassigmenrll=_
+--add-reads
+com.example.networkllassigmenrll=ALL-UNNAMED

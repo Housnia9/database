@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainanchor" prefHeight="752.0" prefWidth="1035.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.networkllassigmentll.MainControl">
+   <children>
+      <AnchorPane layoutY="185.0" prefHeight="567.0" prefWidth="363.0">
+         <children>
+            <Button fx:id="searchhh" layoutX="14.0" layoutY="293.0" mnemonicParsing="false" onAction="#moveanchor" prefHeight="31.0" prefWidth="313.0" text="Show My grade by search">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font></Button>
+            <AnchorPane layoutX="7.0" prefHeight="167.0" prefWidth="356.0" />
+            <ImageView fitHeight="224.0" fitWidth="345.0" layoutX="10.0" layoutY="10.0">
+               <image>
+                  <Image url="@../../../jj.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <MenuButton fx:id="servermethod" layoutX="630.0" layoutY="24.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="370.0" style="-fx-background-color: #073e6a;" text="GET=&gt;http://127.0.0.1:80/NWIIASSII" textFill="WHITE">
+        <items>
+          <MenuItem fx:id="get1" mnemonicParsing="false" onAction="#selectservermethod" text="POST=&gt;http://127.0.0.1:80/NWIIASSII" />
+            <MenuItem fx:id="get11" mnemonicParsing="false" onAction="#selectservermethod" text="GET=&gt;http://127.0.0.1:80/NWIIASSII" />
+        </items>
+      </MenuButton>
+      <AnchorPane fx:id="A2" layoutX="363.0" layoutY="175.0" prefHeight="577.0" prefWidth="674.0" visible="false">
+         <children>
+            <TextArea fx:id="a2" editable="false" layoutY="130.0" prefHeight="406.0" prefWidth="676.0" />
+            <Button fx:id="showproduct" layoutX="151.0" layoutY="87.0" mnemonicParsing="false" onAction="#showproduct" text="Show Product" />
+            <Button fx:id="edititems" layoutX="321.0" layoutY="87.0" mnemonicParsing="false" onAction="#editnumitem" text="Insert #items" />
+            <Button fx:id="withdraw" layoutX="472.0" layoutY="87.0" mnemonicParsing="false" onAction="#withdraw" prefHeight="31.0" prefWidth="94.0" text="Withdraw" />
+            <Button fx:id="convert2" layoutX="548.0" layoutY="536.0" mnemonicParsing="false" onAction="#convert2" text="Convet to EUR " />
+         </children>
+      </AnchorPane>
+      <Separator layoutX="352.0" layoutY="184.0" orientation="VERTICAL" prefHeight="567.0" prefWidth="14.0" />
+      <Separator layoutX="-10.0" layoutY="182.0" prefHeight="0.0" prefWidth="363.0" />
+      <AnchorPane layoutX="1.0" layoutY="132.0" prefHeight="50.0" prefWidth="1037.0">
+         <children>
+            <Label layoutX="14.0" layoutY="10.0" prefHeight="31.0" prefWidth="381.0" text="Welcome to Tawjihi Results In Palestine" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="date" layoutX="518.0" layoutY="10.0" prefHeight="30.0" prefWidth="153.0" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="time" layoutX="830.0" layoutY="10.0" prefHeight="31.0" prefWidth="202.0" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label fx:id="url" layoutX="675.0" layoutY="60.0" prefHeight="21.0" prefWidth="319.0" textFill="RED" />
+      <Label fx:id="lastenter" alignment="CENTER" layoutX="395.0" layoutY="191.0" prefHeight="31.0" prefWidth="639.0" textFill="WHITE" visible="false">
+         <font>
+            <Font size="28.0" />
+         </font></Label>
+      <AnchorPane fx:id="A1" layoutX="361.0" layoutY="184.0" prefHeight="567.0" prefWidth="678.0" visible="false">
+         <children>
+            <TextArea fx:id="a1" editable="false" layoutX="2.0" layoutY="144.0" prefHeight="382.0" prefWidth="676.0" />
+            <Button fx:id="convert" layoutX="517.0" layoutY="531.0" mnemonicParsing="false" onAction="#convert" prefHeight="21.0" prefWidth="130.0" text="Convert to EUR  " />
+         </children>
+      </AnchorPane>
+      <Label fx:id="L1" layoutX="361.0" layoutY="14.0" prefHeight="21.0" prefWidth="106.0" text="Create By" />
+      <Label fx:id="L2" layoutX="260.0" layoutY="45.0" prefHeight="21.0" prefWidth="336.0" text="Housnia Mashaqiv &amp;Fatima abu alreesh" />
+      <Label layoutX="354.0" layoutY="218.0" prefHeight="31.0" prefWidth="154.0" text="Enter Your Name">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="namet" layoutX="520.0" layoutY="220.0" prefHeight="26.0" prefWidth="257.0" />
+   </children>
+</AnchorPane>

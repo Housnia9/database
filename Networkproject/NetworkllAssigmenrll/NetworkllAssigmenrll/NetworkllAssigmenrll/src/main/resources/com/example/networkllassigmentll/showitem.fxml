@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="205.0" prefWidth="554.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.networkllassigmentll.showitem">
+   <children>
+      <Button fx:id="confirm" layoutX="206.0" layoutY="134.0" mnemonicParsing="false" onAction="#showitem" prefHeight="31.0" prefWidth="88.0" text="Cocfirm" />
+      <Separator layoutX="124.0" layoutY="3.0" orientation="VERTICAL" prefHeight="200.0" />
+      <TextField fx:id="productid" layoutX="147.0" layoutY="61.0" prefHeight="31.0" prefWidth="293.0" promptText="Produt ID" />
+      <Label fx:id="incoorect" layoutX="147.0" layoutY="89.0" prefHeight="27.0" prefWidth="293.0" textFill="RED" />
+      <Label layoutX="14.0" layoutY="14.0" prefHeight="21.0" prefWidth="97.0" text="Enter ID of " textFill="LIME">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="45.0" prefHeight="21.0" prefWidth="80.0" text="prduct to " textFill="LIME">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="76.0" prefHeight="21.0" prefWidth="88.0" text="show his " textFill="LIME">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="65.0" fitWidth="106.0" layoutX="10.0" layoutY="134.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../pp.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="14.0" layoutY="103.0" prefHeight="27.0" prefWidth="97.0" text="information" textFill="LIME">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="189.0" layoutY="5.0" prefHeight="45.0" prefWidth="210.0" text="For Employee Only">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="334.0" layoutY="134.0" mnemonicParsing="false" onAction="#Cancel" prefHeight="31.0" prefWidth="88.0" text="Cancel" />
+   </children>
+</AnchorPane>

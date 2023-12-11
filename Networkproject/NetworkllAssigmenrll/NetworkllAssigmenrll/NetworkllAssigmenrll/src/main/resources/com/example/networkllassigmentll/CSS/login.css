@@ -1,0 +1,20 @@
+#log_in
+{
+ -fx-font-weight: bold;
+    -fx-background-color: #2196f3;
+    -fx-background-radius:22;
+    -fx-text-fill:white;
+}
+#log_in1
+{
+ -fx-font-weight: bold;
+    -fx-background-color: #2196f3;
+    -fx-background-radius:22;
+    -fx-text-fill:white;
+}
+#Main
+{
+-fx-background-image: url("../../../../res.jpg");
+  -fx-background-repeat: no-repeat;
+  -fx-background-size:cover;
+}

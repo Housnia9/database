@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c499e816-a6dc-4829-8efa-8e54f007f743" name="xampp.server" url="http://localhost/PhpstormProjects/NWIIASSII">
+        <fileTransfer mountedRoot="C:\xampp\htdocs\dashboard" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>
